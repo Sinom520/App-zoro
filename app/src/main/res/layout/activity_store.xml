@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:id="@+id/hint_12"
+    android:src="@mipmap/ic_launcher_round"
+    android:background="@drawable/ic_launcher_background"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2">
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="5"
+    android:id="@+id/good_name1"
+    android:textSize="35sp"
+    android:maxLines="1"
+    android:text="商品名"
+    android:gravity="center"
+    android:textColor="@color/colorbtnbackground"/>
+</LinearLayout>
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_weight="2">
+ <TextView
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:layout_weight="1"
+     android:id="@+id/good_price1"
+     android:text="商品价格"
+     android:gravity="center"
+     android:textSize="35sp"
+     android:textColor="@color/colorbtnbackground"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2"
+    android:orientation="horizontal">
+ <Button
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:layout_weight="1"
+     android:id="@+id/rule1"
+     android:text="S(36)"
+     android:background="@drawable/btn_click"
+     android:textSize="24sp"
+     android:textColor="@color/colorbtnbackground"/>
+ <Button
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:layout_weight="1"
+     android:id="@+id/rule2"
+     android:background="@drawable/btn_click"
+     android:text="M(37)"
+     android:textSize="24sp"
+     android:textColor="@color/colorbtnbackground"/>
+ <Button
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:layout_weight="1"
+     android:id="@+id/rule3"
+     android:background="@drawable/btn_click"
+     android:text="L(38)"
+     android:textSize="24sp"
+     android:textColor="@color/colorbtnbackground"/>
+</LinearLayout>
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_weight="2"
+     android:orientation="horizontal">
+  <Button
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:id="@+id/color1"
+      android:background="@drawable/btn_click"
+      android:text="米色"
+      android:textSize="24sp"
+      android:textColor="@color/colorbtnbackground"/>
+  <Button
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:id="@+id/color2"
+      android:background="@drawable/btn_click"
+      android:text="黑色"
+      android:textSize="24sp"
+      android:textColor="@color/colorbtnbackground"/>
+  <Button
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:id="@+id/color3"
+      android:background="@drawable/btn_click"
+      android:text="浅蓝色"
+      android:textSize="24sp"
+      android:textColor="@color/colorbtnbackground"/>
+ </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2"
+    android:orientation="horizontal">
+<Button
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layout_gravity="bottom"
+    android:id="@+id/list"
+    android:text="查看订单"
+    android:textSize="24sp"
+    android:textColor="@color/colorbtnbackground" />
+<Button
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layout_gravity="bottom"
+    android:id="@+id/car"
+    android:text="加入购物车"
+    android:textSize="24sp"
+    android:textColor="@color/colorbtnbackground"/>
+</LinearLayout>
+</LinearLayout>

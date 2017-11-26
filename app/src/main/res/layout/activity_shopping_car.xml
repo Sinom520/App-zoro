@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:id="@+id/good_name3"
+            android:hint="name"
+            android:textSize="35sp"
+            android:maxLines="1"
+            android:textColor="@color/colorview"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/good_price3"
+            android:hint="price"
+            android:textSize="35sp"
+            android:textColor="@color/colorview"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/rule4"
+            android:hint="rule"
+            android:textSize="35sp"
+            android:textColor="@color/colorview"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/color4"
+            android:hint="color"
+            android:gravity="right"
+            android:textSize="35sp"
+            android:textColor="@color/colorview"/>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2">
+<Button
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:id="@+id/list_car"
+    android:text="查看订单"
+    android:textSize="24sp"
+    android:textColor="@color/colorbtnbackground"
+    android:layout_gravity="bottom"/>
+<Button
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:id="@+id/pay"
+    android:text="立即支付"
+    android:textSize="24sp"
+    android:textColor="@color/colorbtnbackground"
+    android:layout_gravity="bottom"/>
+</LinearLayout>
+</LinearLayout>
+

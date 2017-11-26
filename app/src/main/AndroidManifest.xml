@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".user_login"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="ACTION_START1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".center">
+            <intent-filter>
+                <action android:name="ACTION_START2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".store"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="ACTION_START3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".list"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="ACTION_START4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".shopping_car"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="ACTION_START5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".leader"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="ACTION_START6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".leader_store"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="ACTION_START7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".add_store"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="ACTION_START8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".leader_good"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="ACTION_START9" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".add_good"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="ACTION_START10"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+    <item
+        android:icon="@mipmap/ic_launcher_round"
+        android:title="个人资料" />
+    <item
+        android:icon="@mipmap/ic_launcher_round"
+        android:title="余额" />
+    </group>
+    <group>
+    <item
+    android:icon="@mipmap/ic_launcher_round"
+    android:title="其他" />
+    </group>
+    <group>
+    <item
+        android:icon="@mipmap/ic_launcher_round"
+        android:title="退出"/>
+    <item
+        android:icon="@mipmap/ic_launcher_round"
+        android:title="切换账号"/>
+    </group>
+
+</menu>
